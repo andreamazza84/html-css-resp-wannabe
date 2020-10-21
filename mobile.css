@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: cambria;
+  line-height: 1;
+  background-color: #f9f9f9;
+}
+.grey{
+  background-color: none;
+}
+.container{
+  width: 100%;
+}
+.container:nth-of-type(odd){
+  background-color: #f2f2cd;
+}
+.row{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+img{
+  height: 80px;
+  margin-top: 10px;
+}
+h1{
+  font-size: 25px;
+  margin-top: 0;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+h3{
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+hr{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 100%; /**/
+  margin-bottom: 10px;
+}
+/* BLOCCO WHY */
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 0;
+
+}
+#why .row img {
+  padding: 15px;
+  margin-top: 10px;
+}
